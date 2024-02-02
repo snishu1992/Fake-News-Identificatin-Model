@@ -25,12 +25,19 @@ Methodology:
 The decide under which category the news article comes under (whether it is
 untrustworthy and false news or real).
 The first step, which is text preprocessing was performed using the following:
+
  Taking care of null/missing values
+
  Feature extraction
+
  TfidfVectorizer
+
  Wordcloud
+
  Matplotlib
+
  Naive Bayes Model
+
 For feature engineering, the TF-IDF technique is used. This processed data is provided as
 an input to Machine learning models, where the data is made to fit the model, to get a
 prediction as an output.
